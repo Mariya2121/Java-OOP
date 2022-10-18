@@ -1,12 +1,13 @@
 package InterfacesAndAbstraction.Ferrari;
 
 public class Ferrari implements Car {
+    private final String MODEL =  "488-Spider";
     private String drivenName;
     private String model;
 
     public Ferrari(String drivenName) {
         this.drivenName = drivenName;
-        this.model = "488-Spider";
+        this.model = MODEL;
     }
 
     @Override
